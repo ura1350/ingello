@@ -6,11 +6,18 @@
 html, body, #root { height: 100%; }
 body { @apply bg-[var(--bg)] text-[var(--text)] antialiased; background-image: var(--grad1); background-attachment: fixed; }
 
+<<<<<<< HEAD
 /* type scale */
+=======
+>>>>>>> 8cbc7231d4b17c7f695ec9df970f46ffab1538e0
 h1, .h1 { @apply text-3xl md:text-5xl font-semibold tracking-tight; }
 h2, .h2 { @apply text-2xl md:text-3xl font-semibold; }
 p.lead { @apply text-base md:text-lg text-[var(--subtext)]; }
 .container { @apply max-w-[120rem] px-4 sm:px-6 lg:px-10 mx-auto; }
 
+<<<<<<< HEAD
 /* FIX: inline surface styles instead of @apply surface */
+=======
+/* Fixed: inline surface styles */
+>>>>>>> 8cbc7231d4b17c7f695ec9df970f46ffab1538e0
 .card { @apply p-5 rounded-2xl; background: var(--panel); border: 1px solid var(--border); }

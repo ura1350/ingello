@@ -12,7 +12,10 @@
            radial-gradient(70% 70% at 90% 10%, rgba(225,29,72,.25), transparent 55%),
            radial-gradient(60% 80% at 50% 100%, rgba(16,185,129,.20), transparent 60%);
 }
+<<<<<<< HEAD
 /* helpers */
+=======
+>>>>>>> 8cbc7231d4b17c7f695ec9df970f46ffab1538e0
 .surface { background: var(--panel); border: 1px solid var(--border); border-radius: 1rem; }
 .btn { display:inline-flex; align-items:center; gap:.5rem; padding:.75rem 1rem; border-radius: .8rem; }
 .btn-primary { background: var(--accent); color:white; }
